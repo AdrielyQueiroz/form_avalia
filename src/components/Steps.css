@@ -37,3 +37,19 @@
   .active > svg {
     fill: #7076f4;
   }
+
+  @media screen and (max-width: 1024px) {
+    .steps .active {
+      padding: 5px;
+      width: 50px;
+      font-size: 10px;
+    }
+
+    .step {
+      font-size: 10px;
+    }
+
+    .steps::after {
+      width: 280px;
+    }
+  }
